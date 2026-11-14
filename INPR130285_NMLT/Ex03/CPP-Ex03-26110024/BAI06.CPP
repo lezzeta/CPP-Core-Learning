@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int a[1005][1005];
+int n,m;
+int main()
+{
+    cin >> n >> m;
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            cin >> a[i][j];
+        }
+    }
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= m; j++) {
+            if (a[i][j] > a[i-1][j] && a[i][j] > a[i+1][j] && a[i][j] > a[i][j+1] && a[i][j-1]) {
+                cout << i << " " << j << endl;
+                return 0;
+            }
+        }
+    }
+}
