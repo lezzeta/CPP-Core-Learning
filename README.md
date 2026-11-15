@@ -18,3 +18,5 @@
 # CÁC PHẦN BÀI TẬP ÔN TẬP MỞ RỘNG 
 
 1. [PREFIX-SUM](./PREFIX-SUM/)
+
+2. [VECTOR-PAIR](./VECTOR-PAIR/)
