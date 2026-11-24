@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    int n;
+    long long n;
     cin >> n;
-    int a[n+5];
-    int pre[n+5] = {1};
+    long long a[n+5];
+    long long pre[1005] = {1};
     for (int i = 1; i <= 19; i++) {
         pre[i] = pre[i-1]*i;
     }
