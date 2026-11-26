@@ -4,21 +4,15 @@ using namespace std;
 
 int main()
 {
-    int n; cin >> n;
-    while(n--)
+    int t; cin >> t;
+    while(t--)
     {
-        int maxx = 0;
-        int minn = 10e5;
-        int m; cin >> m;
-        for (int i = 1; i <= n; i++) {
-            cin >> a[i];
-            if (maxx < a[i]) {
-                maxx = a[i];
-            }
-            if (minn > a[i]) {
-                minn = a[i];
-            }
-        }
+        int n;
+        cin >> n;
+        vector<int>ds(n);
+        for (int &x : ds) cin >> x;
+        sort(ds.begin(), ds.end());
+        cout << min(ds[n-1] - ds[1], ds[n-2] - ds[0]) << "\n";
     }
     return 0;
 }
