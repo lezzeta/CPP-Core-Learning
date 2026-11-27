@@ -27,3 +27,13 @@ Trong môn học sử dụng ngôn ngữ C++ để giải quyết cách biểu d
 2. [VECTOR-PAIR](./VECTOR-PAIR/)
 
 3. [SET-MAP](./SET-MAP/)
+
+4. [RECURSION-LAMBDA](./RECURSION-LAMBDA/)
+
+5. [NUMBER-THEORY](./NUMBER%20THEORY/)
+
+6. [STRING](./C05/)
+
+7. [SORT-SEARCH](./SORT-SEARCH/)
+
+# LÝ THUYẾT CON TRỎ (POINTER) (upload CPP-Pointer-Memory_Management ...) 
